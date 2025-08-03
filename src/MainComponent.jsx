@@ -291,7 +291,7 @@ function MainComponent() {
     setError(null);
 
     try {
-       const response = await fetch(`${apiUrl}/api/path`, {
+       const response = await fetch(`/api/path`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ scramble: scrambleSequence }),
