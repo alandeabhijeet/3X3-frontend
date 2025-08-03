@@ -483,7 +483,7 @@ function MainComponent() {
               counter-clockwise
             </p>
             <p>
-              Faces: <span className="font-mono">R</span> (Right),{" "}
+              Face: <span className="font-mono">R</span> (Right),{" "}
               <span className="font-mono">L</span> (Left),{" "}
               <span className="font-mono">U</span> (Up),{" "}
               <span className="font-mono">D</span> (Down),{" "}
